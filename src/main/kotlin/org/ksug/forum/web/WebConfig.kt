@@ -2,11 +2,9 @@ package org.ksug.forum.web
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import org.springframework.beans.factory.annotation.Autowired
-import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.core.MethodParameter
 import org.springframework.http.MediaType
-import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean
 import org.springframework.web.bind.support.WebDataBinderFactory
 import org.springframework.web.context.request.NativeWebRequest
 import org.springframework.web.context.request.ServletRequestAttributes
